@@ -2,7 +2,7 @@
 import Image from "next/image";
 import landingImage from './../assets/images/landing-image.png'
 import Vector1 from './../assets/images/vector11.png'
-import Vector2 from './../assets/images/vector2.png'
+// import Vector2 from './../assets/images/vector2.png'
 import rect1 from './../assets/images/rect-1.png'
 import Border from './../assets/images/border.png'
 import project1 from './../assets/images/projects1.png'
@@ -39,7 +39,7 @@ export default function Home() {
         </div>
     
       <div className="flex justify-end w-full">
-        <Image src={Vector2} alt="vector"/>
+        {/* <Image src={Vector2} alt="vector"/> */}
       </div>
       <div className="flex justify-center">
         <button className="text-white  bg-primary p-3 mt-4 px-5 text-lg font-semibold ">Learn more</button>
